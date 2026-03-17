@@ -17,7 +17,7 @@
         identifiers should be
         descriptive and follow a consistent naming convention. For example, "<strong>box</strong>" is a good class name
         for a generic container.</p>
-    <div class="box">
+    <div>
         <p>The HTML div has a class of <strong>box</strong>.</p>
         <pre><code class="html">&lt;div class="box"&gt; ... &lt;/div&gt;</code></pre>
         and the CSS selector is (note the dot notation)
@@ -39,9 +39,12 @@
   border-radius: 25px;
   padding: 25px;
 }</code></pre>
-<p>Some declarations (<code>background-color</code> and <code>padding</code>, from "box" are overwritten by the same declarations in "highlight" becuase highlight appears after box in the CSS cascade.</p>
+        <p>Some declarations (<code>background-color</code> and <code>padding</code>, from "box" are overwritten by the
+            same declarations in "highlight" becuase highlight appears after box in the CSS cascade.</p>
     </div>
-
+    <div id="note">
+        <p>Testing the note ID</p>
+    </div>
     <div id="note" class="box">
         <p>This is a div with a unique ID "note" and the same "box" class.</p>
         <pre><code class="html">&lt;div id="note" class="box"&gt; ... &lt;/div&gt;</code></pre>
@@ -66,6 +69,7 @@
         </ul>
     </section>
 
+    
 
 
 
