@@ -13,7 +13,7 @@
     /* Dark slate blue*/
     --accent2-color: #e9c46a;
     /* light golden Yellow*/
-    --heading-font: Mulish, Arial, san-serif;
+    --heading-font: Arial, helvetica, san-serif;
     --body-font: "Times New Roman", "Georgia", serif;
 }
 
@@ -28,6 +28,7 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
+    text-align: center;
 }
 
 h1,
@@ -82,4 +83,5 @@ article {
 
 .socialmedia a {
     text-decoration: none;
+    text-align: center;
 }
