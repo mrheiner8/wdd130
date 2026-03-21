@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 :root {
     --main-color: darkblue;
     --heading-text-color: white;
@@ -12,7 +13,7 @@
     --box-shadow: 0 0 30px gray;
 }
 
-body{
+body {
     font-size: 18px;
     font-family: Mulish, Arial, Helvetica, sans-serif;
 }
@@ -77,14 +78,14 @@ footer {
 }
 
 /* Class Selectors */
-.box{
+.box {
     margin: 1rem;
-    border: 1px solid rgba(0,0,0,.1);
+    border: 1px solid rgba(0, 0, 0, .1);
     padding: 1rem;
     background-color: #eee;
     color: 000;
 }
 
-.indent{
+.indent {
     padding-left: 2rem;
 }
