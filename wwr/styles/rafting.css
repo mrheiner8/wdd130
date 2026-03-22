@@ -5,7 +5,8 @@
     --accent1-color: #264653;
     --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", serif;
-    --body-font: Arial, Helvetica, sans-serif; /* Fixed 'Ariel' spelling */
+    --body-font: Arial, Helvetica, sans-serif;
+    /* Fixed 'Ariel' spelling */
 }
 
 /* 2. Reset */
@@ -22,18 +23,24 @@ body {
     line-height: 1.6;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
 }
 
-nav, p, section, article {
+nav,
+p,
+section,
+article {
     margin: 16px;
     padding: 8px;
 }
 
 /* 4. Layout Containers */
-header, main, footer {
+header,
+main,
+footer {
     width: 840px;
     margin: 0 auto;
     text-align: center;
@@ -64,7 +71,7 @@ header, main, footer {
 .hero article {
     position: absolute;
     bottom: 20px;
-    padding: 5px;    
+    padding: 5px;
     background-color: var(--accent1-color);
     opacity: 0.8;
     font-family: var(--body-font);
@@ -75,7 +82,7 @@ header, main, footer {
     float: right;
     width: 125px;
     border: 2px solid #264653;
-    box-shadow: 0 0 12px rgba(0,0,0,0.5);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
     margin: 2rem;
 }
 
