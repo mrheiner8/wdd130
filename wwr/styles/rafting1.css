@@ -1,45 +1,42 @@
-/* 1. Variables */
 :root {
     --primary-color: #055a05;
+    /*forest green*/
     --secondary-color: #f4a261;
+    /* Warm sand*/
     --accent1-color: #264653;
+    /* Dark slate blue*/
     --accent2-color: #e9c46a;
+    /* light golden Yellow*/
     --heading-font: "Times New Roman", "Georgia", serif;
-    --body-font: Arial, Helvetica, sans-serif; /* Fixed 'Ariel' spelling */
+    --body-font: Arial, Helvetica, san-serif;
 }
 
-/* 2. Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* 3. Base Elements */
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
-    line-height: 1.6;
 }
+
 
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
-}
+}    
 
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
 }
-
-/* 4. Layout Containers */
 header, main, footer {
     width: 840px;
     margin: 0 auto;
     text-align: center;
 }
-
-/* 5. Hero Component */
 .hero {
     position: relative;
 }
@@ -50,8 +47,9 @@ header, main, footer {
     height: auto;
 }
 
-.hero h1 {
+h1 {
     position: absolute;
+    box-shadow: ;
     top: 20px;
     width: 100%;
     padding: 16px;
@@ -59,27 +57,35 @@ header, main, footer {
     opacity: 0.7;
     background-color: var(--primary-color);
     color: #fff;
+    /* make sure there's enough contrast with the background-color*/
 }
 
-.hero article {
+article {
+    position: absolute;
+    font-style: var(--body-font);
+}
+
+
+/* Class Selectors */
+
+.hero article{
     position: absolute;
     bottom: 20px;
     padding: 5px;    
     background-color: var(--accent1-color);
     opacity: 0.8;
-    font-family: var(--body-font);
+    font-family: var(--body-font) ;
     color: var(--accent2-color);
 }
-
 .hero article img {
     float: right;
     width: 125px;
-    border: 2px solid #264653;
-    box-shadow: 0 0 12px rgba(0,0,0,0.5);
-    margin: 2rem;
+    border: 2px solid #264653 ;
+    box-shadow: 0 0 12px;
+    margin: 2rem 2rem 2rem 2rem;
+
 }
 
-/* 6. Social Media */
 .socialmedia a {
     text-decoration: none;
     text-align: center;
