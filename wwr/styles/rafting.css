@@ -61,7 +61,7 @@ img{
 
 .navigation a {
     display: block;
-    color: navy;
+    color: var(--primary-color);
     padding: 20px;
     text-decoration: none;
     font-size: 1.2rem;
