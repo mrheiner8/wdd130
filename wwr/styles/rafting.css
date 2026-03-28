@@ -38,18 +38,19 @@ article {
 }
 
 /* 4. Layout Containers */
-header{
+header {
     margin: 1rem auto;
     display: grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
 
 }
-img{
-    margin: 0 0.25 0 1rem;
+
+header img {
     width: 200px;
     height: auto;
 }
+
 .navigation {
     display: flex;
     list-style: none;
@@ -120,63 +121,69 @@ footer {
     margin: 2rem;
 }
 
-.history{
+.history {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
     gap: 10px;
     align-items: center;
 }
 
-.history h2{
+.history h2 {
     grid-column: 1/4;
 }
 
-.history p{
+.history p {
     margin: 2rem;
 }
-.history img{
+
+.history img {
     width: 100%;
     height: auto;
     border: 2px solid #264653;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
 }
 
-.adventure{
+.adventure {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr
-    ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 2rem;
 }
-.adventure h2{
+
+.adventure h2 {
     grid-column: 1/6;
 }
 
-.adventure img{
+.adventure img {
     width: 100%;
     height: auto;
     border: 2px solid #264653;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
 }
+
 /* 6. Social Media */
-footer{
+footer {
     display: grid;
-    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-columns: repeat(3, 1fr);
 }
-.socialmedia{
+
+.socialmedia {
     grid-column: 3/4;
     grid-row: 1/2;
     display: flex;
     justify-content: right;
 }
+
 .socialmedia a {
     text-decoration: none;
     text-align: center;
 }
-.socialmedia a img{
+
+.socialmedia a img {
     width: 50px;
     padding: 5px;
 }
-footer p{
+
+footer p {
     grid-column: 2/3;
     grid-row: 1/2;
     width: 100%;
