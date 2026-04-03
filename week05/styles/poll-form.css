@@ -18,7 +18,7 @@ header {
 
 h1 {
     margin: 1rem;
-    font-size: 1.5 em;
+    font-size: 1.5em;
     color: navy;
     text-align: center;
 }
@@ -48,7 +48,7 @@ legend {
 }
 
 label, input, button, select, textarea {
-    font-family: Roboto, Ariel, san-serif;
+    font-family: Roboto, Arial, sans-serif;
     color: white;
 }
 
