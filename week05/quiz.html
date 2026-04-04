@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Along Activity</title>
+    <title>Code Along Quiz form</title>
     <link rel="stylesheet" href="styles/quiz.css">
     <meta name="description" content="Placeholder">
     <meta name="author" content="Michael Ray Heiner">
@@ -12,40 +12,34 @@
 
 <body>
     <header>
-        <h1>Code-Along</h1>
+        <h1>Basic HTML And CSS Quiz </h1>
     </header>
     <main>
         <form>
-            <div class="form-item column2">
-                <label for="fullname">Full Name:</label>
-                <input type="text" id="fullname" name="fullname" required>
+            <div class="quiz-item">
+                <label for="q1">1. Which HTML tag is used to define the largest and most important heading on a page?</label>
+                <input type="text" id="q1" name="q1">
             </div>
-            <div class="form-item column2">
-                <label for="useremail">Email:</label>
-                <input type="email" id="useremail" name="useremail" required>
+            <div class="quiz-item">
+                <label for="q2">2. Explain the difference between a CSS 'ID' selector and a 'Class' selector in your own words.</label>
+                <textarea id="q2" name="q2"
+                    placeholder="..."></textarea>
             </div>
-            <div class="form-item column1">
-                <label for="browser">What is your favorite browser</label>
-                <select id="browser" name="browser">
-                    <option value="chrome">Chrome</option>
-                    <option value="firefox">Firefox</option>
-                    <option value="edge">Edge</option>
-                    <option value="brave">Brave</option>
-                    <option value="opera">Opera</option>
-                    <option value="other">Other</option>
+            <div class="quiz-item">
+                <label for="q3">3. Which CSS property is used to change the text color of an element?</label>
+                <select id="q3" name="q3">
+                    <option value="" selected disabled>Choose One</option>
+                    <option value="a">A. color</option>
+                    <option value="b">B. text-style</option>
+                    <option value="c">C. font-color</option>
                 </select>
             </div>
-            <div class="form-item">
-                <label for="pet">Do you have a household pet?</label>
-                <input type="checkbox" id="pet" name="pet">
+            <div class="quiz-item">
+                <label for="q4">4. How many pixels are in 1 standard 'em' unit if the browser default font size is 16px?</label>
+                <input type="number" id="q4" name="q4">
             </div>
-            <div class="form-item">
-                <label for="feedback">List the places you have lived:</label>
-                <textarea id="feedback" name="feedback" rows="4"
-                    placeholder="Stillwater Florida, Amsterdam Netherlands, Timbuktu Mali"></textarea>
-            </div>
-            <div class="form-item">
-                <button type="submit">Submit Poll</button>
+            <div class="quiz-item">
+                <button type="submit">Submit Quiz</button>
             </div>
         </form>
     </main>
