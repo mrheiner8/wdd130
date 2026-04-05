@@ -52,14 +52,14 @@
                     <input type="email" id="user-email" name="user-email" placeholder="dan.rafter@email.com">
                     <fieldset>
                         <legend>Purpose of Message</legend>
-                        <label><input type="radio" name="purpose" value="general"> General Inquiry</label>
-                        <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
-                        <label><input type="radio" name="purpose" value="suggestion"> Website Suggestions</label>
+                        <label for="general"><input type="radio" id="general" name="purpose" value="general"> General Inquiry</label>
+                        <label for="reservation"><input type="radio" id="reservation" name="purpose" value="reservation"> Reservation Question</label>
+                        <label for="suggestion"><input type="radio" id="suggestion" name="purpose" value="suggestion"> Website Suggestions</label>
                     </fieldset>
                     <label for="message">Message</label>
                     <textarea name="message" id="message" rows="4" placeholder="Type Here"></textarea>
-                    <label class="checkbox-label">
-                        <input type="checkbox" name="subscribe" value="yes"> Please subscribe me to the monthly
+                    <label for="subscribe" class="checkbox-label">
+                        <input type="checkbox" id="subscribe" name="subscribe" value="yes"> Please subscribe me to the monthly
                         newsletter
                     </label>
                     <button type="submit">Get in Touch!</button>
