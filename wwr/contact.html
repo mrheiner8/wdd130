@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Rapids Rafting co.</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <meta name="description"
+        content="This is the Contact Us page of the Rapids Rafting Co. website, it contains details for customers to contact the company.">
+
+    <meta name="author" content="Michael Heiner">
+
+</head>
+
+<body>
+    <header>
+        <img src="images/z-rapids-trees.jpg" alt="Rapids Logo">
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Rapids Rafting Co.</h1>
+        <section class="contact-info">
+            <address>
+                2468 River Run Ln.<br>
+                Colorado Springs, Colorado 80918<br>
+                <a href="tel:7195550123">+1 719.555.0123</a><br>
+                <a href="mailto:info@rapidsrafting.com">info@rapidsrafting.com</a>
+            </address>
+        </section>
+        <div class="contact-flex">
+            <section class="map">
+                <h2>Get Directions</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3109.573080241398!2d-104.8557139206543!3d38.796420300000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87135b493a27f2e3%3A0x9deff347ba50ef00!2s1401%20W%20Cheyenne%20Rd%2C%20Colorado%20Springs%2C%20CO%2080906!5e0!3m2!1sen!2sus!4v1775324489318!5m2!1sen!2sus"
+                    width="600" height="450" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <section class="contact-form">
+                <form>
+                    <label for="user-name">Name</label>
+                    <input type="text" id="user-name" name="user-name" placeholder="Dan Rafter">
+
+                    <label for="user-email">E-Mail</label>
+                    <input type="email" id="user-email" name="user-email" placeholder="dan.rafter@email.com">
+                    <fieldset>
+                        <legend>Purpose of Message</legend>
+                        <label><input type="radio" name="purpose" value="general"> General Inquiry</label>
+                        <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+                        <label><input type="radio" name="purpose" value="suggestion"> Website Suggestions</label>
+                    </fieldset>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="4" placeholder="Type Here"></textarea>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="subscribe" value="yes"> Please subscribe me to the monthly
+                        newsletter
+                    </label>
+                    <button type="submit">Get in Touch!</button>
+                </form>
+            </section>
+
+        </div>
+        <section class="employees">
+            <h2>Meet Our Team</h2>
+            <div class="employee-grid">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Close up of Dan guiding a raft through white water rapids.">
+                    <figcaption><strong>Dan Rafter</strong> - Lead Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Billy leading a safety exercise on the river.">
+                    <figcaption><strong>Billy Clark</strong> - Safety Officer</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="Laura managing equipment inventory after a rafting trip.">
+                    <figcaption><strong>Laura West</strong> - Logistics Expert</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="*Facebook Icon" width="80">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.svg" alt="*Linkedin Icon" width="80">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="*Instagram Icon" width="80">
+            </a>
+        </nav>
+        <p>©2026 | Rapids Rafting Co.| Michael Heiner</p>
+    </footer>
+</body>
+
+</html>
