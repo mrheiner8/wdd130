@@ -112,7 +112,7 @@ footer {
     background-color: var(--accent1-color);
     opacity: 0.8;
     font-family: var(--body-font);
-    color: var(--accent2-color);
+    color: white;
     border-radius: 10px;
 }
 
